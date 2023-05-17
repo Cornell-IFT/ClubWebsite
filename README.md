@@ -1,8 +1,11 @@
 # TODO:
 
 Responsive Navbar
+
 More styling
+
 Add text content
+
 Play with serving video
 
 # Getting Started with Create React App
