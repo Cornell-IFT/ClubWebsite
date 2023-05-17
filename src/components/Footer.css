@@ -1,0 +1,37 @@
+.social-footer {
+  background: #eee;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-footer-icons {
+  align-self: flex-end;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  background: #d4d4d4;
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.github {
+  color: black;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
