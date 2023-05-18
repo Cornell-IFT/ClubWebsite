@@ -13,7 +13,7 @@ function TextColumn(props) {
   return (<div className="column">
     <div className="textbox">
       <div className="heading">{props.heading}</div>
-      <div> {props.text} </div>
+      <div style={{ marginTop: '10px' }}> {props.text} </div>
     </div>
   </div>)
 }
