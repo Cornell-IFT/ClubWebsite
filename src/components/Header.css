@@ -10,15 +10,12 @@ body {
   text-align: center;
   font-weight: 550;
   font-size: 48px;
-  float: left
 }
 
 .header {
   width: 100%;
   padding-top: 200px;
-  padding-bottom: 300px;
-  padding-left: 300px;
-  padding-right: 100px;
+  padding-bottom: 250px;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 

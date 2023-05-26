@@ -36,7 +36,7 @@ function Navbar() {
                 <StyledLink to="/contact">Contact</StyledLink>
               </li>
               <li>
-                <StyledLink to="/apply">Apply</StyledLink>
+                <a className="apply" href="https://www.google.com/">Apply</a>
               </li>
             </ul>
           </div>

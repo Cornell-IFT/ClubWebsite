@@ -32,6 +32,7 @@ function rotate(props) {
 
   }
 }
+
 function TwoColumn(props) {
   return (
     <>
