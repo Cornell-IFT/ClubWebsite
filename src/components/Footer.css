@@ -1,5 +1,6 @@
 .social-footer {
-  background: #eee;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
   padding: 25px 50px;
   display: flex;
   justify-content: center;
