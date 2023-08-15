@@ -10,7 +10,7 @@ const Team = () => {
         <h1 class="w-full mb-10 mt-0 text-4xl font-bold leading-tight text-primary text-center">
           Members
         </h1>
-        <p class="text-center w-full mb-10 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 xl:px-48 py-10">
+        <p class="text-center w-full mb-10 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 xl:px-48 px-10">
           The current members of our executive board. In our team, everyone wears multiple hats, working on anything from marketing and graphic design to the ideation process to our technology. If you're interested in working with us, shoot us an application!
         </p>
       </div>

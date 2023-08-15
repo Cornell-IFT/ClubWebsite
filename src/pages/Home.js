@@ -22,7 +22,7 @@ const Home = () => {
       <div class="bg-gray-200">
         <TwoColumn heading="Our Mission" text="Our mission is to explore ways to combine interests in film and technology." image="/drone.jpeg" left={true} />
         <TwoColumn heading="Our Tools" text="We use anything from drones, VR sets, to post-production software to build out our ideas." image="/logo_black.png" left={false} />
-        <TwoColumn heading="Our Projects" text="As a project-oriented team, we seek to produce new experiences every semester" image="/5183000.jpg" left={true} />
+        <TwoColumn heading="Our Projects" text="As a project-oriented team, we seek to create new experiences every semester." image="/5183000.jpg" left={true} />
       </div>
     </div>
   );
