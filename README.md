@@ -1,12 +1,6 @@
-# TODO:
+# CIFT Website
 
-Responsive Navbar
-
-More styling
-
-Add text content
-
-Play with serving video
+This is the repo for the Cornell Innovative Film and Tech website. It was built using create-react-app.
 
 # Getting Started with Create React App
 
