@@ -54,3 +54,64 @@ body {
 .apply:hover {
   color: gray;
 }
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  transition: rgb(28, 28, 28) 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block
+  }
+
+  .nav-elements.expanded ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(228, 220, 228);
+    border-top: 1px solid black;
+    padding-bottom: 350px;
+    margin-top: -60px
+  }
+
+  .nav-elements.expanded li {
+    text-align: center;
+    margin: 1.5rem;
+  }
+
+  .nav-elements.expanded li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .nav-elements.expanded li a:hover {
+    color: gray;
+  }
+
+  .nav-elements ul {
+    display: none
+  }
+
+  .nav-elements.expanded ul {
+    display: flex;
+  }
+}

@@ -15,6 +15,8 @@ const StyledLink = styled(Link)`
 
 
 function Navbar() {
+  const [isExpanded, setIsExpanded] = useState(false)
+
   return (
     <>
       <nav className="navbar">
@@ -24,22 +26,47 @@ function Navbar() {
               <img className="cift-logo" src="/logo_black.png" alt="CIFT" />
             </Link>
           </div>
-          <div className="nav-elements">
+          <div className={isExpanded ? "nav-elements expanded" :
+            "nav-elements"
+          }>
             <ul>
               <li>
-                <StyledLink to="/projects">Projects</StyledLink>
+                <StyledLink to="/projects" onClick={() => {
+                  setIsExpanded(false);
+                }}>Projects</StyledLink>
               </li>
               <li>
-                <StyledLink to="/team">Team</StyledLink>
+                <StyledLink to="/team" onClick={() => {
+                  setIsExpanded(false);
+                }}>Team</StyledLink>
               </li>
               <li>
-                <StyledLink to="/contact">Contact</StyledLink>
+                <StyledLink to="/contact" onClick={() => {
+                  setIsExpanded(false);
+                }}>Contact</StyledLink>
               </li>
               <li>
                 <a className="apply" href="https://www.google.com/">Apply</a>
               </li>
             </ul>
           </div>
+          <button className="hamburger" onClick={() => {
+            setIsExpanded(!isExpanded);
+          }}>
+            {/* icon from heroicons.com */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="white"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
         </div>
       </nav>
     </>
