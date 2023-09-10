@@ -1,7 +1,7 @@
 .heading {
   margin-top: 0px;
   font-family: 'Poppins', sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 400
 }
 
@@ -9,6 +9,13 @@
   padding-top: 80px;
   padding-bottom: 80px;
   float: left;
+  width: 50%;
+}
+
+.column-right {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  float: right;
   width: 50%;
 }
 
@@ -22,11 +29,17 @@
   margin: 0px 15px 0px 15px;
 }
 
+.imgbox-right {
+  margin: 0px 15px 0px 15px;
+  float: right;
+}
+
 .textbox {
   margin: 0px 15px 0px 15px;
 }
 
 .drone-home {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  border: 2px solid #555;
 }

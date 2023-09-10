@@ -2,6 +2,14 @@ import React from 'react';
 import './Team.css'
 import TeamCard from '../components/TeamCard';
 
+const amy = "/amy.jpg"
+const hoanan = "/haonan.jpg"
+const jonathan = "/jonathan.jpg"
+const katie = "/katie.jpg"
+const krisha = "/krisha.jpg"
+const stella = "/stella.jpeg"
+
+
 const Team = () => {
   return (
     <div>
@@ -18,31 +26,31 @@ const Team = () => {
 
         <div class="w-9/12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Krisha Jivani" description="President" />
+            <TeamCard image={krisha} name="Krisha Jivani" description="President" />
           </div>
           <div class="flex justify-center">
             <TeamCard image="/default_person.jpg" name="Coco Xu" description="Vice President" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Brandon Huynh" description="Treasurer" />
+            <TeamCard image={hoanan} name="Haonan Gong" description="Treasurer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Stella Dong" description="Technology Lead" />
+            <TeamCard image="/default_person.jpg" name="Brandon Huynh" description="Finance Officer" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image={stella} name="Stella Dong" description="Technology Lead" />
           </div>
           <div class="flex justify-center">
             <TeamCard image="/default_person.jpg" name="Ziga Kovacic" description="Technology Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Jonathan Chen" description="Technology Officer" />
+            <TeamCard image={jonathan} name="Jonathan Chen" description="Technology Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Katie Perlitz" description="Marketing and Outreach Officer" />
+            <TeamCard image={katie} name="Katie Perlitz" description="Marketing and Outreach Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Haonan Gong" description="Marketing and Outreach Officer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Amy Chitnumsab" description="Marketing and Outreach Officer" />
+            <TeamCard image={amy} name="Amy Chitnumsab" description="Marketing and Outreach Officer" />
           </div>
         </div>
       </div>

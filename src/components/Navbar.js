@@ -46,7 +46,7 @@ function Navbar() {
                 }}>Contact</StyledLink>
               </li>
               <li>
-                <a className="apply" href="https://www.google.com/">Apply</a>
+                <a className="apply" href="https://docs.google.com/forms/d/e/1FAIpQLSdpKWzh4FvQ5V9dtojtDyQbZu5nmFAFbZfOiog9KVH6pBuzwQ/viewform">Apply</a>
               </li>
             </ul>
           </div>

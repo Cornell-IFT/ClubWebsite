@@ -11,6 +11,21 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Footer.css'
 
+
+/*
+
+<a href="https://www.youtube.com/"
+            className="youtube social">
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
+          </a>
+
+<a href="https://www.instagram.com/innovtechfilm/"
+            className="instagram social">
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
+
+
+*/
 function Footer() {
   return (
     <>
@@ -19,16 +34,9 @@ function Footer() {
           CIFT 2023
         </div>
         <div class="social-footer-icons">
-          <a href="https://www.youtube.com/"
-            className="youtube social">
-            <FontAwesomeIcon icon={faYoutube} size="2x" />
-          </a>
           <a href="https://github.com/Cornell-IFT"
             className="github social">
             <FontAwesomeIcon icon={faGithub} size="2x" />
-          </a>
-          <a href="https://www.twitter.com/" className="twitter social">
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
           <a href="https://www.instagram.com/innovtechfilm/"
             className="instagram social">
