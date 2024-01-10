@@ -11,8 +11,11 @@ const Home = () => {
           <h1 class="w-full mb-10 mt-0 text-4xl font-bold leading-tight text-primary text-center">
             About
           </h1>
-          <p class="w-full mb-10 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 px-10">
+          <p class="w-full mb-4 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 px-10">
             Established in 2022, Cornell Innovative Film and Tech is a team focused on developing new experiences by combining traditional film techniques with modern technology. We have drones, VR sets, and studio equipment to use in a variety of creative endeavours. Have an idea for a cool project? We may be able to help!
+          </p>
+          <p class="w-full mb-10 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 px-10">
+            This organization is a registered student organization of Cornell University.
           </p>
           <a type="button" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" href="https://docs.google.com/forms/d/e/1FAIpQLSdpKWzh4FvQ5V9dtojtDyQbZu5nmFAFbZfOiog9KVH6pBuzwQ/viewform">
             Apply to our team

@@ -31,7 +31,7 @@ function Footer() {
     <>
       <footer class="social-footer">
         <div class="social-footer-left">
-          CIFT 2023
+          CIFT 2024
         </div>
         <div class="social-footer-icons">
           <a href="https://github.com/Cornell-IFT"
