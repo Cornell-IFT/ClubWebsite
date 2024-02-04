@@ -7,7 +7,7 @@ function headerText(pathname) {
   console.log(pathname)
   switch (pathname) {
     case "":
-      return "We are Cornell Innovative Film Technology"
+      return "We are the Innovative Film & Technology Club at Cornell"
     case "projects":
       return "Projects"
     case "team":
