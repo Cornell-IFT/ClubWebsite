@@ -12,7 +12,7 @@ const Home = () => {
             About
           </h1>
           <p class="w-full mb-4 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 px-10">
-            Established in 2022, Cornell Innovative Film and Tech is a team focused on developing new experiences by combining traditional film techniques with modern technology. We have drones, VR sets, and studio equipment to use in a variety of creative endeavours. Have an idea for a cool project? We may be able to help!
+            Established in 2022, the Innovative Film & Technology Club at Cornell is a team focused on developing new experiences by combining traditional film techniques with modern technology. We have drones, VR sets, and studio equipment to use in a variety of creative endeavours. Have an idea for a cool project? We may be able to help!
           </p>
           <p class="w-full mb-10 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-800 px-10">
             This organization is a registered student organization of Cornell University.
