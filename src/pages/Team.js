@@ -32,7 +32,10 @@ const Team = () => {
             <TeamCard image={krisha} name="Krisha Jivani" description="President" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Coco Xu" description="Vice President" />
+            <TeamCard image={amy} name="Amy Chitnumsab" description="Co-Vice President & Marketing and Outreach Lead" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image="/default_person.jpg" name="Duncan McDonald" description="Co-Vice President & Production Lead" />
           </div>
           <div class="flex justify-center">
             <TeamCard image={hoanan} name="Haonan Gong" description="Treasurer" />
@@ -41,7 +44,13 @@ const Team = () => {
             <TeamCard image="/default_person.jpg" name="Brandon Huynh" description="Finance Officer" />
           </div>
           <div class="flex justify-center">
+            <TeamCard image="/default_person.jpg" name="Jack Kelly" description="Finance Officer" />
+          </div>
+          <div class="flex justify-center">
             <TeamCard image={stella} name="Stella Dong" description="Technology Lead" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image="/default_person.jpg" name="Samantha Vaca" description="Technology Lead" />
           </div>
           <div class="flex justify-center">
             <TeamCard image="/default_person.jpg" name="Ziga Kovacic" description="Technology Officer" />
@@ -50,10 +59,22 @@ const Team = () => {
             <TeamCard image={jonathan} name="Jonathan Chen" description="Technology Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={katie} name="Katie Perlitz" description="Marketing and Outreach Officer" />
+            <TeamCard image="/default_person.jpg" name="Erik Bermudez" description="Technology Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={amy} name="Amy Chitnumsab" description="Marketing and Outreach Officer" />
+            <TeamCard image="/default_person.jpg" name="Kelly Ryoo" description="Technology Officer" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image={katie} name="Katie Perlitz" description="Marketing and Outreach Lead" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image="/default_person.jpg" name="Sofia Echaniz" description="Production Lead" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image="/default_person.jpg" name="Coco Xu" description="" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image="/default_person.jpg" name="George Margono" description="" />
           </div>
         </div>
       </div>
