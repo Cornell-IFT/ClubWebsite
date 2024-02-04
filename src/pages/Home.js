@@ -25,7 +25,7 @@ const Home = () => {
       <div class="bg-gray-200">
         <TwoColumn heading="Our Mission" text="Our mission is to explore ways to combine interests in film and technology. We want to bring stories alive through innovative filmmaking, including but not limited to the use of technologies such as virtual reality, augmented reality, 360 film, and drone usage." image="/drone.jpeg" left={true} />
         <TwoColumn heading="Our Tools" text="We use anything from drones, VR sets, to post-production software to build out our ideas. We are also open to explore all kinds of computer graphics engines, such as Blender and Unity, to create projects." image="/donut_blender.png" left={false} />
-        <TwoColumn heading="Our Projects" text="As a project-oriented team, we seek to create new experiences every semester. For Fall 2023, our in-house project revolves around filming action scenes." image="/wonder_woman.png" left={true} />
+        <TwoColumn heading="Our Projects" text="As a project-oriented team, we seek to create new experiences every semester. For Spring 2024, our in-house project revolves around filming action scenes." image="/wonder_woman.png" left={true} />
       </div>
     </div>
   );
