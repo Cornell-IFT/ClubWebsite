@@ -26,10 +26,12 @@ const Team = () => {
         <img class="object-contain h-96 w-9/12" src={group} />
       </div>
       <div class="flex justify-center my-5">
-
         <div class="w-9/12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           <div class="flex justify-center">
-            <TeamCard image={krisha} name="Krisha Jivani" description="President" />
+            <TeamCard image={krisha} name="Krisha Jivani" description="Founder" />
+          </div>
+          <div class="flex justify-center">
+            <TeamCard image={stella} name="Stella Dong" description="President" />
           </div>
           <div class="flex justify-center">
             <TeamCard image={amy} name="Amy Chitnumsab" description="Co-Vice President & Marketing and Outreach Lead" />
@@ -41,19 +43,10 @@ const Team = () => {
             <TeamCard image={hoanan} name="Haonan Gong" description="Treasurer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Brandon Huynh" description="Finance Officer" />
-          </div>
-          <div class="flex justify-center">
             <TeamCard image="/default_person.jpg" name="Jack Kelly" description="Finance Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={stella} name="Stella Dong" description="Technology Lead" />
-          </div>
-          <div class="flex justify-center">
             <TeamCard image="/default_person.jpg" name="Samantha Vaca" description="Technology Lead" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Ziga Kovacic" description="Technology Officer" />
           </div>
           <div class="flex justify-center">
             <TeamCard image={jonathan} name="Jonathan Chen" description="Technology Officer" />
@@ -62,19 +55,13 @@ const Team = () => {
             <TeamCard image="/default_person.jpg" name="Erik Bermudez" description="Technology Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Kelly Ryoo" description="Technology Officer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image={katie} name="Katie Perlitz" description="Marketing and Outreach Lead" />
-          </div>
-          <div class="flex justify-center">
             <TeamCard image="/default_person.jpg" name="Sofia Echaniz" description="Production Lead" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Coco Xu" description="" />
+            <TeamCard image="/default_person.jpg" name="George Margono" description="Production Officer" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="George Margono" description="" />
+            <TeamCard image={katie} name="Katie Perlitz" description="Marketing and Outreach Lead" />
           </div>
         </div>
       </div>
