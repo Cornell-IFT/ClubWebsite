@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <div class="pt-20 pb-64 flex flex-col justify-center 
-                items-center ">
+                items-center" style={{ fontFamily: "'Courier New', Courier, monospace" }}>
         <h1 class="w-full mb-10 mt-0 text-3xl font-bold leading-tight text-primary text-center">
           Email
         </h1>
