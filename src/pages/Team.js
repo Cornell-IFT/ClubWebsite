@@ -2,21 +2,20 @@ import React from 'react';
 import './Team.css'
 import TeamCard from '../components/TeamCard';
 
-const amy = "/amy.jpg"
-const hoanan = "/haonan.jpg"
-const jonathan = "/jonathan.jpg"
-const katie = "/katie.jpg"
 const krisha = "/krisha.jpg"
 const stella = "/stella.jpeg"
+const sofia = "/SofiaPic.png"
+const samantha = "/SamanthaPic.png"
+const jack = "/JackPic.png"
 const group = "/group.jpg"
 
 const Team = () => {
   return (
     <div>
       <div class="my-10 flex flex-col justify-center 
-                items-center">
+                items-center" style={{ fontFamily: "'Courier New', Courier, monospace" }}>
         <h1 class="w-full mb-10 mt-0 text-4xl font-bold leading-tight text-primary text-center">
-          Members
+          Team Members
         </h1>
         <p class="text-center w-full mb-2 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 xl:px-48 px-10">
           The current members of our executive board. In our team, everyone wears multiple hats, working on anything from marketing and graphic design to the ideation process to our technology. If you're interested in working with us, shoot us an application!
@@ -31,37 +30,16 @@ const Team = () => {
             <TeamCard image={krisha} name="Krisha Jivani" description="Founder" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={stella} name="Stella Dong" description="President" />
+            <TeamCard image={stella} name="Stella Dong" description="Co-President" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={amy} name="Amy Chitnumsab" description="Co-Vice President & Marketing and Outreach Lead" />
+            <TeamCard image={sofia} name="Sofia Echániz" description="Co-Vice President" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Duncan McDonald" description="Co-Vice President & Production Lead" />
+            <TeamCard image={samantha} name="Samantha Vaca" description="Technical Lead" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={hoanan} name="Haonan Gong" description="Treasurer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Jack Kelly" description="Finance Officer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Samantha Vaca" description="Technology Lead" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image={jonathan} name="Jonathan Chen" description="Technology Officer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Erik Bermudez" description="Technology Officer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="Sofia Echaniz" description="Production Lead" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image="/default_person.jpg" name="George Margono" description="Production Officer" />
-          </div>
-          <div class="flex justify-center">
-            <TeamCard image={katie} name="Katie Perlitz" description="Marketing and Outreach Lead" />
+            <TeamCard image={jack} name="Jack Bravo Kelly" description="Treasurer" />
           </div>
         </div>
       </div>
