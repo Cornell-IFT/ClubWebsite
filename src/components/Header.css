@@ -6,8 +6,9 @@ body {
 }
 
 .header-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Didot';
   text-align: center;
+  color: white;
   font-weight: 550;
   font-size: 48px;
   padding-left: 10px;
@@ -18,7 +19,11 @@ body {
   width: 100%;
   padding-top: 200px;
   padding-bottom: 250px;
-  background-image: linear-gradient(120deg, #fd8d8d 0%, #ff4949 100%);
+  /*background-image: linear-gradient(120deg, #fd8d8d 0%, #ff4949 100%);*/
+  /*background-image: linear-gradient(to bottom, #e5dcdc 0%, #474747 100%);*/
+  background-image: url('/public/CFS-Home.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 
 
