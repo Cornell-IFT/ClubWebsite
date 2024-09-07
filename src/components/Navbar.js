@@ -5,9 +5,10 @@ import styled from 'styled-components'
 
 const StyledLink = styled(Link)`
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.3rem;
   font-weight: 500;
-  color: black;
+  color: white;
   &:hover {
     color: gray;
   }
@@ -23,7 +24,7 @@ function Navbar() {
         <div className="navbar-container">
           <div className="logo">
             <Link to="/">
-              <img className="cift-logo" src="/logo_black.png" alt="CIFT" />
+              <img className="cift-logo" src="/CFSLogo.png" alt="CIFT" />
             </Link>
           </div>
           <div className={isExpanded ? "nav-elements expanded" :
@@ -33,20 +34,20 @@ function Navbar() {
               <li>
                 <StyledLink to="/projects" onClick={() => {
                   setIsExpanded(false);
-                }}>Projects</StyledLink>
+                }}>PROJECTS</StyledLink>
               </li>
               <li>
                 <StyledLink to="/team" onClick={() => {
                   setIsExpanded(false);
-                }}>Team</StyledLink>
+                }}>TEAM</StyledLink>
               </li>
               <li>
                 <StyledLink to="/contact" onClick={() => {
                   setIsExpanded(false);
-                }}>Contact</StyledLink>
+                }}>CONTACT</StyledLink>
               </li>
               <li>
-                <a className="apply" href="https://docs.google.com/forms/d/e/1FAIpQLSdpKWzh4FvQ5V9dtojtDyQbZu5nmFAFbZfOiog9KVH6pBuzwQ/viewform">Apply</a>
+                <a className="apply" href="https://docs.google.com/forms/d/e/1FAIpQLSdpKWzh4FvQ5V9dtojtDyQbZu5nmFAFbZfOiog9KVH6pBuzwQ/viewform">APPLY</a>
               </li>
             </ul>
           </div>
