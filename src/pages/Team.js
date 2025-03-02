@@ -30,10 +30,10 @@ const Team = () => {
             <TeamCard image={krisha} name="Krisha Jivani" description="Founder" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={stella} name="Stella Dong" description="Co-President" />
+            <TeamCard image={stella} name="Stella Dong" description="Former President" />
           </div>
           <div class="flex justify-center">
-            <TeamCard image={sofia} name="Sofia Echániz" description="Co-Vice President" />
+            <TeamCard image={sofia} name="Sofia Echániz" description="President" />
           </div>
           <div class="flex justify-center">
             <TeamCard image={samantha} name="Samantha Vaca" description="Technical Lead" />
