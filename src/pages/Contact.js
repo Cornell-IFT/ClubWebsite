@@ -10,7 +10,7 @@ const Contact = () => {
           Email
         </h1>
         <p class="text-center w-full mb-10 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 xl:px-48">
-          Reach us at cornell.innovativetechsociety@gmail.com
+          Reach us at cornell.cfs@gmail.com
         </p>
       </div>
     </div>
