@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-[rgb(210,210,210)] text-black py-16 pb-24" style={{ fontFamily: "'Courier New', Courier, monospace" }}>
-        <TwoColumn heading="Our Mission" text="Our mission is to explore ways to combine interests in film and technology. We want to bring stories alive through innovative filmmaking, including but not limited to the use of technologies such as virtual reality, augmented reality, 360 film, and drone usage." image="/camera_720.png" left={true} />
+        <TwoColumn heading="Our Mission" text="Our mission is to facilitate student ambitions in film through educative workshops and  productions. As a project-oriented team, we seek to create new experiences every semester and explore a diversity of narratives. Using innovative technologies and techniques, we work to craft compelling stories across media formats." image="/camera_720.png" left={true} />
         <TwoColumn heading="Our Tools" text="We use anything from drones, VR sets, to post-production software to build out our ideas. We are also open to explore all kinds of computer graphics engines, such as Blender and Unity, to create projects." image="/lighting_720.png" left={false} />
         <TwoColumn heading="Our Projects" text="As a project-oriented team, we seek to create new experiences every semester." image="/interrogation_720.jpg" left={true} />
       </div>
